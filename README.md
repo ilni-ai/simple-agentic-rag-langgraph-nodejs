@@ -73,7 +73,7 @@ npm run dev
 ### 2. Frontend
 
 ```bash
-cd frontend-react
+cd agentic-frontend
 npm install
 npm run dev
 ```
