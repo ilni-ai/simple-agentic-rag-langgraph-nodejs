@@ -1,0 +1,44 @@
+LangGraph.js is a JavaScript framework for building stateful, agentic applications powered by large language models (LLMs). It enables developers to model complex workflows as graphs of reasoning steps.
+
+LangGraph promotes graph-based reasoning, memory, and autonomy in AI applications.
+
+LangGraph is especially useful for applications like study assistants, chat agents, and autonomous tools.
+
+LangGraph applications are built using nodes (steps) and edges (transitions).
+
+Each node in LangGraph performs a task, such as retrieving documents, generating a response, or reflecting on an answer.
+
+Edges define the flow between nodes. LangGraph supports conditional edges through routing.
+
+The entry point defines where the graph begins processing the user input.
+
+LangGraph supports route nodes, which dynamically decide the next node based on model output.
+
+LangGraph.js integrates well with LangChain, Gemini, and vector databases like FAISS.
+
+Agentic behavior is the ability of the system to decide next actions, reflect, and adapt its behavior.
+
+Reflection is implemented as a node that takes in a response and outputs a recommended next step.
+
+Memory is implemented using external systems like SQLite to store conversation turns.
+
+LangGraph passes the full state from node to node, so you can accumulate history and retrieved data.
+
+LangGraph agents typically follow a flow like: retrieve → generate → reflect → route → follow-up or summarize.
+
+LangGraph is declarative — you define what the graph should look like, not how to control flow manually.
+
+This improves maintainability and clarity in building AI systems.
+
+LangGraph is designed for multi-step reasoning tasks — where you want more than a one-shot LLM call.
+
+LangGraph is better suited than simple pipelines when you need autonomous action selection or memory.
+
+LangGraph can be extended with custom tools, web search APIs, or calculators in advanced agents.
+
+LangGraph is used in educational agents, customer service bots, research assistants, and more.
+
+LangGraph.js is a new JavaScript-native version of the LangGraph framework, making it accessible to frontend and Node.js developers.
+
+LangGraph brings agentic AI capabilities to the JavaScript ecosystem with a declarative graph-based structure.
+
